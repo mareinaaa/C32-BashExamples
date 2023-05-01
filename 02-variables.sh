@@ -9,5 +9,6 @@ declare -r CHEMIN=/bin
 
 echo -n "Nom script" $0
 echo -n "Nombre params" $#
+echo "Perso : " $1
 
 
