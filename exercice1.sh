@@ -14,7 +14,7 @@ read -p "Ecrivez un mot : " mot
 commande=`wget -qO - http://dictionary.objectif8.com/exists.php?word=`
 
 # OU
-# echo "Ecrivez un mot : "
+# echo "Ecrivez un mot : 
 # echo read mot
 
 if [[ $resultat=1 ]]
