@@ -20,7 +20,7 @@ choix=
 while [[ $choix != q ]]
 do
 	afficheMenu
-	read -p "Votre choix: " $choix
+	read -p "Votre choix: " choix
 	if [[ $choix = a ]]
 	then
 		cd; ls
